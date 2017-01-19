@@ -1,0 +1,95 @@
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: #A52A2A;
+	font-size:62.5%
+}
+
+header,
+main,
+footer{
+	background-color: #ddd;
+  font-size: 1.6em;
+}
+
+header {
+    float: left;
+    margin:0 0 30px 0;
+    padding: 5px 0 0 0 ;
+		height:35%;
+    width: 100%;
+    background-image:url(images/visit_hannibal.png);
+}
+
+h1 {
+	text-align:center;
+	margin:0;
+	font-size: 2.5em;
+}
+
+h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+p {
+	padding: 0.5em;
+}
+
+figure {
+	margin: 0;
+	padding: 25px 50px;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+	text-align: left;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+div {
+	position: relative;
+	display: inline-block;
+	height: 40px;
+	width: 100px;
+	border-radius: 5px;
+	border: 2px solid black;
+	margin-left: 5px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.figcap {
+	border: 2px dashed green;
+}
+
+#special{
+	border: 4px dashed #cc0000;
+	height:60px;
+	width:120px;
+}
+
+
+ul.topnav li {
+	float: left;
+	margin:150px 0 80px 0;
+}
+ul.topnav li a {
+    display: inline-block;
+    color: #A52A2A;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+ul.topnav li a:hover {background-color: #555;}
